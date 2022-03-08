@@ -1,8 +1,8 @@
 //MUST HAVE - CREATE A TEMPLATE TAG
-var template_content = document.createElement("template"); //<template> </template> RULE
+var template_bruh = document.createElement("template"); //<template> </template> RULE
 
 //To-do - CREATE THE UI HERE!
-template_content.innerHTML = `
+template_bruh.innerHTML = `
 <style>
     .content_icon {
         display: flex;
@@ -55,11 +55,10 @@ template_content.innerHTML = `
     bruh
 </div>    
 </div>
-
 `;
 
 //MUST HAVE - CREATE A CLASS WITH HTMLELEMENT POWERS (interfaces/functionalities)
-class TheContent extends HTMLElement {
+class TheBruh extends HTMLElement {
 
     //MUST HAVE - CREATE A CONSTRUCTOR TO DO INITAL ASSOCIATIONS
     constructor(){
@@ -71,12 +70,11 @@ class TheContent extends HTMLElement {
 
     //MUST HAVE - FUNCTION THAT RUNS AFTER IT'S CONNECTED
     connectedCallback(){
-        this.shadowRoot.appendChild(template_comp.content.cloneNode(true)); //use the template to make a clone
+        this.shadowRoot.appendChild(template_bruh.content.cloneNode(true)); //use the template to make a clone
     }
 
     //To-do - CREATE THE FUNCTIONALITIES HERE!
-          
 }
 
 //MUST HAVE - define the tag for the custom elements
-customElements.define("the-content", TheContent)
+customElements.define("the-bruh", TheBruh)
