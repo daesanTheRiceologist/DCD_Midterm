@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h2>Fast Fashion Development</h2>
+    <div>
+        <p>Fast fashion brands optimize their supply chains in order to design and manufacture fast, 
+            low-cost garments that follow trends and appeal to mainstream consumers at lower prices. 
+            Because low-cost garments are mass-produced, the quality is relatively much poorer.
+        </p>
+        <button>
+            SHOW ISSUES
+        </button>
+    </div>
+   
+    <div>
+        
+        <img src="" alt="" srcset="">
+    </div>
+</body>
+</html>

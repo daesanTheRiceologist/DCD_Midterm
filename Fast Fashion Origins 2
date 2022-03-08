@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h2>Fast Fashion Origins</h2>
+   <p>In the 1990s, large department store chains in the United States began to compete in the market by developing low-cost, fashion forward clothing.</p>
+   <div>
+    <img src="" alt="" srcset="">
+</div>
+</body>
+</html>
