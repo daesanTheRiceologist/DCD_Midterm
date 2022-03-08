@@ -8,7 +8,7 @@ template_bruh.innerHTML = `
         display: flex;
         align-items: center;
         justify-content: space-around;
-        background-color: red;
+        background-color: white;
         height: 20vh;
     }
 
@@ -39,20 +39,24 @@ template_bruh.innerHTML = `
     .content_icon {
         display: flex;
     }
+    .issue_text {
+        display: flex;
+        justify-content: center;
+    }
 </style>
 
 <div class="content_icon" >
 <div class="icon_with_text">
     <div> <img class="icon"  src="https://upload.wikimedia.org/wikipedia/commons/7/76/Louis_Vuitton_logo_and_wordmark.svg" alt="" srcset=""> </div>
-    bruh
+    <div class = "issue_text"> bruh </div>
 </div>  
 <div class="icon_with_text">
     <div> <img class="icon"  src="https://upload.wikimedia.org/wikipedia/commons/7/76/Louis_Vuitton_logo_and_wordmark.svg" alt="" srcset=""> </div>
-    <div> bruh </div>
+    <div class = "issue_text"> bruh </div>
 </div>
 <div class="icon_with_text">
     <div> <img class="icon"  src="https://upload.wikimedia.org/wikipedia/commons/7/76/Louis_Vuitton_logo_and_wordmark.svg" alt="" srcset=""> </div>
-    bruh
+    <div class = "issue_text"> bruh </div>
 </div>    
 </div>
 `;
