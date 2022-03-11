@@ -42,22 +42,25 @@ template_buttoncontent.innerHTML = `
     .issue_text {
         display: flex;
         justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
     }
 </style>
 
+
 <div class="content_icon" >
-<div class="icon_with_text">
-    <div> <img class="icon"  src="https://upload.wikimedia.org/wikipedia/commons/7/76/Louis_Vuitton_logo_and_wordmark.svg" alt="" srcset=""> </div>
-    <div class = "issue_text"> bruh </div>
-</div>  
-<div class="icon_with_text">
-    <div> <img class="icon"  src="https://upload.wikimedia.org/wikipedia/commons/7/76/Louis_Vuitton_logo_and_wordmark.svg" alt="" srcset=""> </div>
-    <div class = "issue_text"> bruh </div>
-</div>
-<div class="icon_with_text">
-    <div> <img class="icon"  src="https://upload.wikimedia.org/wikipedia/commons/7/76/Louis_Vuitton_logo_and_wordmark.svg" alt="" srcset=""> </div>
-    <div class = "issue_text"> bruh </div>
-</div>    
+    <div class="icon_with_text">
+        <div> <img class="icon icon1"  src="https://upload.wikimedia.org/wikipedia/commons/7/76/Louis_Vuitton_logo_and_wordmark.svg" alt="" srcset=""> </div>
+        <div class = "issue_text issue1"> bruh </div>
+    </div>  
+    <div class="icon_with_text">
+        <div> <img class="icon icon2"  src="https://upload.wikimedia.org/wikipedia/commons/7/76/Louis_Vuitton_logo_and_wordmark.svg" alt="" srcset=""> </div>
+        <div class = "issue_text issue2"> bruh </div>
+    </div>
+    <div class="icon_with_text">
+        <div> <img class="icon icon3"  src="https://upload.wikimedia.org/wikipedia/commons/7/76/Louis_Vuitton_logo_and_wordmark.svg" alt="" srcset=""> </div>
+        <div class = "issue_text issue3"> bruh </div>
+    </div>    
 </div>
 `;
 
@@ -75,6 +78,24 @@ class TheButtoncontent extends HTMLElement {
     //MUST HAVE - FUNCTION THAT RUNS AFTER IT'S CONNECTED
     connectedCallback(){
         this.shadowRoot.appendChild(template_buttoncontent.content.cloneNode(true)); //use the template to make a clone
+        if(this.getAttribute("issue1")){
+            this.shadowRoot.querySelector(".issue1").innerText = this.getAttribute("issue1")
+        }
+        if(this.getAttribute("issue2")){
+            this.shadowRoot.querySelector(".issue2").innerText = this.getAttribute("issue2")
+        }
+        if(this.getAttribute("issue3")){
+            this.shadowRoot.querySelector(".issue3").innerText = this.getAttribute("issue3")
+        }
+        if(this.getAttribute("icon1")){
+            this.shadowRoot.querySelector(".icon1").src = this.getAttribute("icon1")
+        }
+        if(this.getAttribute("icon2")){
+            this.shadowRoot.querySelector(".icon2").src = this.getAttribute("icon2")
+        }
+        if(this.getAttribute("icon3")){
+            this.shadowRoot.querySelector(".icon3").src = this.getAttribute("icon3")
+        }
     }
 
     //To-do - CREATE THE FUNCTIONALITIES HERE!
