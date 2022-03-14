@@ -5,6 +5,7 @@ var template_storycontent = document.createElement("template"); //<template> </t
 template_storycontent.innerHTML = `
 <style>
     .content_container {
+        padding: 50px;
         display: flex;
         flex-direction: column;
         align-items: center;}
@@ -16,6 +17,7 @@ template_storycontent.innerHTML = `
     }
 
     .text {
+        padding: 20px;
         font-size: 1.5vw;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;

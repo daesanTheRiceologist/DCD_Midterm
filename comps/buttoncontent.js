@@ -30,6 +30,8 @@ template_buttoncontent.innerHTML = `
         height: 7vh;
         margin-right: 5vh;
         margin-left: 5vh;
+        justify-content: center;
+        display: flex;
     }
 
     .icons {
