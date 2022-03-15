@@ -1,4 +1,4 @@
-var a;
+var a = 1;
 function show_hide(){
     if(a==1) {
         document.getElementById("text").style.display="inline";
@@ -10,7 +10,7 @@ function show_hide(){
     }
 }
 
-var b;
+var b =1;
 function show_hide2(){
     if(b==1) {
         document.getElementById("text2").style.display="inline";
@@ -22,7 +22,7 @@ function show_hide2(){
     }
 }
 
-var c;
+var c= 1;
 function show_hide3(){
     if(c==1) {
         document.getElementById("text3").style.display="inline";
@@ -34,7 +34,7 @@ function show_hide3(){
     }
 }
 
-var d;
+var d =1;
 function show_hide4(){
     if(d==1) {
         document.getElementById("text4").style.display="inline";
@@ -46,7 +46,7 @@ function show_hide4(){
     }
 }
 
-var e;
+var e = 1;
 function show_hide5(){
     if(e==1) {
         document.getElementById("text5").style.display="inline";
@@ -58,7 +58,7 @@ function show_hide5(){
     }
 }
 
-var f;
+var f=1;
 function show_hide6(){
     if(f==1) {
         document.getElementById("text6").style.display="inline";

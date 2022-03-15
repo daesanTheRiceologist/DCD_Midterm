@@ -16,6 +16,7 @@
     <script src="comps/quote.js"></script>
     <script src="comps/storycontent.js"></script>
     <script src="comps/show_hide.js"></script>
+    <script src="comps/jumpToContent.js"></script>
 </head>
 <body>
     <div class="container_1">
@@ -28,12 +29,29 @@
         header = "FAST FASHION"
     ></the-boldheader>
 
-    <div class="imagestop">
-        <img src="https://i.insider.com/6188cba823745d00182569c2?width=1200" alt="fastfashionpic" style="width:1700px;height:600px;">
-        <img src="https://i.insider.com/6188cba823745d00182569c2?width=1200" alt="fastfashionpic" style="width:1700px;height:600px;">
-    </div>
+    <div class="imagetop">
+        <div style="text-align:center;">
+            <button class="buttonTop" onclick="jumpToIssues()">Show Issues</button>
+            <img class="firstimg" src="https://i.insider.com/6188cba823745d00182569c2?width=1200" alt="fastfashionpic">
+        </div>
+        <div style="text-align:center;">
+            <img class="secondimg" src="https://i.insider.com/6188cba823745d00182569c2?width=1200" alt="fastfashionpic">
+            <button class="buttonTop" onclick="jumpToSolutions()">How You Can Help Stop Fast Fashion</button>
+        </div>
+        </div>
 
+    <the-storycontent></the-storycontent>
+
+    <the-storycontent
+        title="Fast Fashion Origins"
+        text="In the 1990s, large department store chains in the United States began to compete in the market by developing low-cost, fashion forward clothing."
+        image="https://images.unsplash.com/36/yJl7OB3sSpOdEIpHhZhd_DSC_1929_1.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80"
+    ></the-storycontent>
+
+
+    
     <the-boldheader
+        id="issues"
         header = "Fast Fashion Issues"
     ></the-boldheader>
 
@@ -48,15 +66,15 @@
 
     <div class="buttons">
         <div>
-            <div class = "showbutton" > <button onclick="show_hide()"> show and hide </button> </div>
+            <div class = "showbutton" > <button onclick="show_hide()" class="button"> show and hide </button> </div>
             <div id="text">blahb alhbalh balh </div>
         </div>
         <div>
-            <div class = "showbutton" > <button onclick="show_hide2()"> show and hide </button> </div>
+            <div class = "showbutton" > <button onclick="show_hide2()" class="button"> show and hide </button> </div>
             <div id="text2">blahb alhbalh balh </div>
         </div>
         <div>
-            <div class = "showbutton" > <button onclick="show_hide3()"> show and hide </button> </div>
+            <div class = "showbutton" > <button onclick="show_hide3()" class="button"> show and hide </button> </div>
             <div id="text3">blahb alhbalh balh </div>
         </div>
     </div>
@@ -66,6 +84,7 @@
     ></the-fullimage>
 
     <the-boldheader
+        id="solutions"
         header = "How You Can Help Stop Fast Fashion"   
     ></the-boldheader>
 
@@ -81,15 +100,15 @@
 
     <div class="buttons">
         <div>
-            <div class = "showbutton" > <button onclick="show_hide4()"> show and hide </button> </div>
+            <div class = "showbutton" > <button onclick="show_hide4()" class="button"> show and hide </button> </div>
             <div id="text4">blahb alhbalh balh </div>
         </div>
         <div>
-            <div class = "showbutton" > <button onclick="show_hide5()"> show and hide </button> </div>
+            <div class = "showbutton" > <button onclick="show_hide5()" class="button" > show and hide </button> </div>
             <div id="text5">blahb alhbalh balh </div>
         </div>
         <div>
-            <div class = "showbutton" > <button onclick="show_hide6()"> show and hide </button> </div>
+            <div class = "showbutton" > <button onclick="show_hide6()" class="button" > show and hide </button> </div>
             <div id="text6">blahb alhbalh balh </div>
         </div>
     </div>
@@ -103,14 +122,6 @@
     <the-fullimage
         image = "https://images.unsplash.com/photo-1606053929013-311c13f97b5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
     ></the-fullimage>
-
-    <the-storycontent></the-storycontent>
-
-    <the-storycontent
-        title="Fast Fashion Origins"
-        text="In the 1990s, large department store chains in the United States began to compete in the market by developing low-cost, fashion forward clothing."
-        image="https://images.unsplash.com/36/yJl7OB3sSpOdEIpHhZhd_DSC_1929_1.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80"
-    ></the-storycontent>
 
     <!-- footer -->
 
