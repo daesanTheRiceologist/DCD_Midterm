@@ -7,6 +7,8 @@ template_fullimage.innerHTML = `
 <style>
     img {
         width: 100%;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
 </style>
 

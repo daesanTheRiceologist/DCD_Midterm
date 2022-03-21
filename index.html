@@ -17,6 +17,7 @@
     <script src="comps/storycontent.js"></script>
     <script src="comps/show_hide.js"></script>
     <script src="comps/jumpToContent.js"></script>
+    <script src="comps/footer.js"></script>
 </head>
 <body>
     <div class="container_1">
@@ -31,15 +32,18 @@
 
     <div class="imagetop">
         <div style="text-align:center;">
-            <button class="buttonTop" onclick="jumpToIssues()">Show Issues</button>
+            <div class="toppart">
+                <button class="buttonTop" onclick="jumpToIssues()">Show Issues</button>
+            </div>
             <img class="firstimg" src="https://i.insider.com/6188cba823745d00182569c2?width=1200" alt="fastfashionpic">
         </div>
         <div style="text-align:center;">
             <img class="secondimg" src="https://i.insider.com/6188cba823745d00182569c2?width=1200" alt="fastfashionpic">
-            <button class="buttonTop" onclick="jumpToSolutions()">How You Can Help Stop Fast Fashion</button>
+            <div class="bottompart">
+                <button class="buttonTop" onclick="jumpToSolutions()">How You Can Help Stop Fast Fashion</button>
+            </div>
         </div>
         </div>
-
     <the-storycontent></the-storycontent>
 
     <the-storycontent
@@ -125,18 +129,6 @@
         image = "https://images.unsplash.com/photo-1606053929013-311c13f97b5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
     ></the-fullimage>
 
-    <!-- footer -->
-
-        <div class="container_2">
-        <div class="copyright"> 2022 CDN GROUP </div>
-        <div class="social_Media_Container">
-            <div> Follow us through social media</div>
-            <div class="icons" id="demo" >   
-                <div> <img class="icon"  src="https://upload.wikimedia.org/wikipedia/commons/7/76/Louis_Vuitton_logo_and_wordmark.svg" alt="" srcset=""> </div>
-                <div> <img class="icon"  src="https://upload.wikimedia.org/wikipedia/commons/7/76/Louis_Vuitton_logo_and_wordmark.svg" alt="" srcset=""> </div>
-                <div> <img class="icon"  src="https://upload.wikimedia.org/wikipedia/commons/7/76/Louis_Vuitton_logo_and_wordmark.svg" alt="" srcset=""> </div>
-            </div>
-        </div>
-    </div>
+    <the-footer></the-footer>
 </body>
 </html>

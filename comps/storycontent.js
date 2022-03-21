@@ -22,6 +22,7 @@ template_storycontent.innerHTML = `
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         width: 65vw;
+        
     }
 
     img {

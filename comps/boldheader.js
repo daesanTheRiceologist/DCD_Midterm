@@ -11,6 +11,8 @@ template_boldheader.innerHTML = `
         padding: 10px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bolder;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
     }
 </style>
 

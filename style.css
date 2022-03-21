@@ -28,6 +28,18 @@
     height: 130px;
 }
 
+.toppart {
+    margin-top : -100px;
+    background-color: gray;
+    position: relative;
+    top: 100px;
+}
+
+.bottompart {
+    margin-top : -104px;
+    background-color: gray;
+    position: relative;
+}
 
 /* Footer */
 
@@ -136,6 +148,7 @@ img {
 
 #text,#text2,#text3,#text4,#text5,#text6 {
     display: none;
+    
 }
 
 .issueContainer {
@@ -164,6 +177,7 @@ img {
     cursor: pointer;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+    width: 10v;
 }
 
 .buttonTop:hover {
