@@ -11,22 +11,22 @@ template_storycontent.innerHTML = `
         align-items: center;}
 
     .title {
-        font-size: 3.5vw;
+        font-size: 3vw;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bolder;
     }
 
     .text {
         padding: 20px;
-        font-size: 1.5vw;
+        font-size: 1.2vw;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        width: 65vw;
+        width: 40vw;
         
     }
 
     img {
-        width: 60vw;
+        width: 40vw;
     }
 </style>
 

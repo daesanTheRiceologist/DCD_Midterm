@@ -28,6 +28,7 @@ template_footer.innerHTML = `
         height: 7vh;
         margin-right: 5vh;
         margin-left: 5vh;
+        margin-top: 2vh;
     }
 
     .icons {
@@ -43,7 +44,7 @@ template_footer.innerHTML = `
     <div class="icons" id="demo" >   
         <div> <img class="icon"  src="https://cdn.icon-icons.com/icons2/2566/PNG/512/facebook_icon_153518.png" alt="" srcset=""> </div>
         <div> <img class="icon"  src="https://seeklogo.com/images/T/twitter-icon-circle-black-logo-35827D553B-seeklogo.com.png" alt="" srcset=""> </div>
-        <div> <img class="icon"  src="images/instagram.jpg" alt="" srcset=""> </div>
+        <div> <img class="icon"  src="images/instagram.png" alt="" srcset=""> </div>
     </div>
 </div>
 </div>
